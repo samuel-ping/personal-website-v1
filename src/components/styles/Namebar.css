@@ -1,0 +1,10 @@
+#MyName {
+  font-size: 6vh;
+  text-align: center;
+  position: sticky;
+  width: 100%;
+  background-color: #4bbd4b;
+
+  padding: 50px;
+  margin-top: 0;
+}
