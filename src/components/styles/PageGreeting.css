@@ -1,7 +1,15 @@
 #greeting-text {
   font-size: 7vh;
   position: static;
+  margin-top: 20vh;
   padding: 17vh 5vh;
   padding-bottom: 1vh;
   margin-bottom: 0;
+}
+
+#my-description {
+  font-size: 4vh;
+  position: relative;
+
+  /* padding-bottom: 20px; */
 }

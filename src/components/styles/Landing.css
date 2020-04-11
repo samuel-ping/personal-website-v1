@@ -1,9 +1,22 @@
+#portrait-background {
+  background: url("../../images/landscapeportrait2center.jpg");
+  filter: blur();
+  background-position: center center;
+  background-size: cover;
+}
+
 #landing {
   text-align: center;
   width: 100vw;
   height: 100vh;
 
   background-color: #024b30;
+
   overflow: hidden;
   margin-top: 0;
+
+  background: url("../../images/greenportrait1.jpg");
+  filter: blur();
+  background-position: center center;
+  background-size: cover;
 }
