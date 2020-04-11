@@ -6,7 +6,7 @@ export default class PageGreeting extends Component {
   render() {
     return (
       <div>
-        <h1 id="greetingText">Hey!</h1>
+        <h1 id="greeting-text">Hey!</h1>
       </div>
     );
   }

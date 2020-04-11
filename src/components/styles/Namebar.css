@@ -1,11 +1,6 @@
-#MyName {
-  font-size: 6vh;
-  text-align: center;
+#my-name {
+  font-size: 7vh;
   position: sticky;
-  width: 100vw;
-  background-color: #4bbd4b;
-
-  padding: 10px 20px;
+  padding: 5vh 5vh;
   padding-bottom: 20px;
-  margin-top: 0;
 }
