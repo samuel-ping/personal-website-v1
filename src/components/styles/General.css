@@ -7,4 +7,6 @@ ul {
   font-family: Roboto;
   background-color: rgb(116, 153, 117);
   color: white;
+  align-content: center;
+  overflow: hidden;
 }

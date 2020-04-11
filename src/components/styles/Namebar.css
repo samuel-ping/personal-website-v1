@@ -2,9 +2,10 @@
   font-size: 6vh;
   text-align: center;
   position: sticky;
-  width: 100%;
+  width: 100vw;
   background-color: #4bbd4b;
 
-  padding: 50px;
+  padding: 10px 20px;
+  padding-bottom: 20px;
   margin-top: 0;
 }

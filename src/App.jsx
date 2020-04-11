@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import PageGreeting from "./components/PageGreeting";
 import Namebar from "./components/Namebar";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Credits from "./components/Credits";
 import { render } from "@testing-library/react";
 

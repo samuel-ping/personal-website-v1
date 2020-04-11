@@ -2,9 +2,11 @@
   font-size: 7vh;
   text-align: center;
   position: static;
-  width: 100%;
+  width: 100vw;
   background-color: #4bbd4b;
 
-  padding: 75px;
-  margin: 0;
+  padding: 75px 20px;
+  padding-bottom: 40;
+  margin-top: 0;
+  margin-bottom: 0;
 }
