@@ -10,18 +10,10 @@
 
 #credits {
   font-size: 1rem;
-  position: relative;
+  /* position: relative; */
   margin-top: 10vh;
-  padding: auto 0;
+  /* padding: auto 0; */
   text-align: center;
-  position: absolute;
-}
-
-#icon-attribution {
-  font-size: 0.7rem;
-  position: relative;
-  margin-top: 13vh;
-  padding: auto 0;
-  text-align: center;
+  justify-content: center;
   position: absolute;
 }
