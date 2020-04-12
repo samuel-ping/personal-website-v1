@@ -1,0 +1,18 @@
+#credits-bar {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #804e7e;
+  padding: 10vh 30vh;
+  position: relative;
+}
+
+#credits {
+  font-size: 1rem;
+  position: relative;
+  margin-top: 10vh;
+  padding: auto 0;
+  text-align: center;
+  position: absolute;
+}
