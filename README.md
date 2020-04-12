@@ -7,6 +7,7 @@ The main site is done!
 - ~~Get main website finished~~ Done!
 - ~~Update all the pages~~ Done!
 - Pictures in pages
+- More details in pages
 - ~~Add credits at bottom~~
 - ~~Make the scrolling arrow work! (react-scroll? scrollIntoView()?) Scroll down until you reach navbar. (https://stackoverflow.com/questions/43441856/reactjs-how-to-scroll-to-an-element)~~ Done! Used react-scroll!
 - ~~Make navbar sticky!~~

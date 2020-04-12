@@ -78,6 +78,7 @@ section {
 #down-arrow a:hover {
   opacity: 0.5;
   box-shadow: 0.5em;
+  cursor: pointer;
 }
 
 /* #down-arrow a { */
