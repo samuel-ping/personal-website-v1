@@ -2,7 +2,8 @@
   overflow: hidden;
   z-index: 1;
   list-style-type: none;
-  background-color: rgb(116, 153, 117);
+  background-color: #4e8050;
+  margin-bottom: 0;
 }
 
 #navbar a {
@@ -13,8 +14,12 @@
   padding: 1em 3em;
   font-size: 1.7rem;
   text-decoration: none;
+  background-size: 100% 200%;
+  /* background-image: linear-gradient(to top, #476b49 50%, #749975 50%); */
+  background-image: linear-gradient(to top, #845c83 50%, #4e8050 50%);
+  transition: background-position 0.4s;
 }
 
 #navbar a:hover {
-  background-color: indianred;
+  background-position: 0 100%;
 }

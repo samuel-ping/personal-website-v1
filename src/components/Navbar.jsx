@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch, Link, Redirect } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  Link,
+  Redirect,
+  // useLocation,
+} from "react-router-dom";
 
 import AboutTab from "./NavbarTabs/AboutTab";
 import InvolvementTab from "./NavbarTabs/InvolvementTab";
@@ -8,6 +15,11 @@ import ProjectsTab from "./NavbarTabs/ProjectsTab";
 import "./styles/Navbar.css";
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { pathname: "/about-me" };
+  }
+
   render() {
     return (
       <div>
@@ -40,22 +52,26 @@ class Navbar extends Component {
         </BrowserRouter>
       </div>
     );
+
+    function About() {
+      return <AboutTab />;
+      // return GetPathname(); // testing how to get current path name
+    }
+
+    function Involvement() {
+      return <InvolvementTab />;
+    }
+
+    function Projects() {
+      return <ProjectsTab />;
+    }
+
+    // function GetPathname() {
+    //   let location = useLocation();
+    //   // console.log(location.pathname);
+    //   return <h1>{location.pathname}</h1>;
+    // }
   }
-}
-
-function About() {
-  // return <AboutTab />;
-  return <h1>ABOUT MEEEE</h1>;
-}
-
-function Involvement() {
-  // return <InvolvementTab />;
-  return <h1>INVOLVEMENT</h1>;
-}
-
-function Projects() {
-  // return <ProjectsTab />;
-  return <h1>PROJECTS</h1>;
 }
 
 export default Navbar;

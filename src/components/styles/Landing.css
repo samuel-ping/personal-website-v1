@@ -64,7 +64,9 @@
 }
 
 .icon-button:hover {
-  background-color: #387759;
+  /* background-color: #387759; */
+  /* background-color: #476b49; */
+  background-color: #845c83;
 }
 
 /* DOWN SCROLL ARROW BUTTON, based off of and modified from https://codepen.io/nxworld/pen/OyRrGy */

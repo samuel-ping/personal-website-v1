@@ -8,3 +8,15 @@ ul {
   color: white;
   align-content: center;
 }
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #926190;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #754877;
+}
