@@ -19,6 +19,8 @@ export default class Credits extends Component {
             <a
               href="https://www.flaticon.com/authors/pixel-perfect"
               title="Pixel perfect"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
               Pixel perfect{" "}
@@ -27,11 +29,18 @@ export default class Credits extends Component {
             <a
               href="https://www.flaticon.com/authors/vitaly-gorbachev"
               title="Vitaly Gorbachev"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Vitaly Gorbachev
             </a>{" "}
             from{" "}
-            <a href="https://www.flaticon.com/" title="Flaticon">
+            <a
+              href="https://www.flaticon.com/"
+              title="Flaticon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               www.flaticon.com
             </a>
           </div>

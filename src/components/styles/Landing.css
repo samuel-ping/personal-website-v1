@@ -76,11 +76,12 @@ section {
 }
 
 #down-arrow a:hover {
-  opacity: 0.4;
+  opacity: 0.5;
   box-shadow: 0.5em;
 }
 
-#down-arrow a {
+/* #down-arrow a { */
+#down-arrow div {
   margin-top: 10vh;
   padding-top: 60px;
   display: inline-block;
@@ -91,7 +92,8 @@ section {
   transition: opacity 0.3s;
 }
 
-#down-arrow a span {
+/* #down-arrow a span { */
+#down-arrow div span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -104,12 +106,14 @@ section {
   animation: scrolldownbutton 2s infinite;
 }
 
-#down-arrow a span:nth-of-type(1) {
+/* #down-arrow a span:nth-of-type(1) { */
+#down-arrow div span:nth-of-type(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-#down-arrow a span:nth-of-type(2) {
+/* #down-arrow a span:nth-of-type(2) { */
+#down-arrow div span:nth-of-type(2) {
   top: 16px;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;

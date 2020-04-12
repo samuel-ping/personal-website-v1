@@ -1,13 +1,24 @@
 import React, { Component } from "react";
 
+import { Link } from "react-scroll";
+
 export default class DownArrow extends Component {
   render() {
     return (
       <section id="down-arrow">
-        <a href="Sorry-This-Button-Doesn't-Work-Yet">
-          <span></span>
-          <span></span>
-        </a>
+        <Link
+          activeClass="active"
+          to="navbar"
+          spy={true}
+          smooth={true}
+          // offset={-70}
+          duration={500}
+        >
+          <div>
+            <span></span>
+            <span></span>
+          </div>
+        </Link>
       </section>
     );
   }
