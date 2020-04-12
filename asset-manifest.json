@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.9cb8a9ad.chunk.css",
+    "main.js": "/personal-website/static/js/main.4ca5af8d.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.4ca5af8d.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.9fc4fff5.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.9fc4fff5.js.map",
+    "static/js/2.e2034f0b.chunk.js": "/personal-website/static/js/2.e2034f0b.chunk.js",
+    "static/js/2.e2034f0b.chunk.js.map": "/personal-website/static/js/2.e2034f0b.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.5d51958615df6ab706b2c1ffa991859e.js": "/personal-website/precache-manifest.5d51958615df6ab706b2c1ffa991859e.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/main.9cb8a9ad.chunk.css.map": "/personal-website/static/css/main.9cb8a9ad.chunk.css.map",
+    "static/js/2.e2034f0b.chunk.js.LICENSE.txt": "/personal-website/static/js/2.e2034f0b.chunk.js.LICENSE.txt",
+    "static/media/email-icon.png": "/personal-website/static/media/email-icon.2143867e.png",
+    "static/media/github-icon.png": "/personal-website/static/media/github-icon.75a6ebe7.png",
+    "static/media/Landing.css": "/personal-website/static/media/landscapeportrait2center.ba79df47.jpg",
+    "static/media/samuel-ping.3-26-20.pdf": "/personal-website/static/media/samuel-ping.3-26-20.b0542870.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fc4fff5.js",
+    "static/js/2.e2034f0b.chunk.js",
+    "static/css/main.9cb8a9ad.chunk.css",
+    "static/js/main.4ca5af8d.chunk.js"
+  ]
+}
