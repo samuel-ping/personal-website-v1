@@ -11,6 +11,9 @@ import {
 import AboutTab from "./NavbarTabs/AboutTab";
 import InvolvementTab from "./NavbarTabs/InvolvementTab";
 import ProjectsTab from "./NavbarTabs/ProjectsTab";
+import ExperienceTab from "./NavbarTabs/ExperienceTab";
+import CourseworkTab from "./NavbarTabs/CourseworkTab";
+import ContactTab from "./NavbarTabs/ContactTab";
 
 import "./styles/Navbar.css";
 
@@ -34,6 +37,15 @@ class Navbar extends Component {
             <li className="tab">
               <Link to="/projects">Projects</Link>
             </li>
+            <li className="tab">
+              <Link to="/experience">Work Experience</Link>
+            </li>
+            <li className="tab">
+              <Link to="/coursework">Coursework</Link>
+            </li>
+            <li className="tab">
+              <Link to="/contact">Contact Me</Link>
+            </li>
           </ul>
 
           <Redirect exact from="/" to="/about-me" />
@@ -47,6 +59,15 @@ class Navbar extends Component {
             </Route>
             <Route path="/projects">
               <Projects />
+            </Route>
+            <Route path="/experience">
+              <Experience />
+            </Route>
+            <Route path="/coursework">
+              <Coursework />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </BrowserRouter>
@@ -64,6 +85,18 @@ class Navbar extends Component {
 
     function Projects() {
       return <ProjectsTab />;
+    }
+
+    function Experience() {
+      return <ExperienceTab />;
+    }
+
+    function Coursework() {
+      return <CourseworkTab />;
+    }
+
+    function Contact() {
+      return <ContactTab />;
     }
 
     // function GetPathname() {

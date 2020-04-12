@@ -5,8 +5,10 @@ It's currently a work in progress!
 ## Things to do
 
 - ~~Get main website finished~~ Done!
+- Update all the pages
+- Add credits at bottom
 - Make the scrolling arrow work! (react-scroll? scrollIntoView()?) Scroll down until you reach navbar.
-- In the navbar, show which tab you're currently in. Use state for this... probably. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
+- In the navbar, show which tab you're currently in. Use state for this... probably. Can fill background color for tab changing effect. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
 - Add tooltips to buttons
 - Make stuff fade in (use React-Motion?)
 - Responsive web design? Scaling stuff to device dimensions?
