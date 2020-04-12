@@ -15,4 +15,4 @@ It's currently a work in progress!
 - Make stuff fade in (use React-Motion?)
 - Responsive web design? Scaling stuff to device dimensions?
 - Make resume icon more like a button like on Sydney's website :p But it might not as good, who knows
-- Add credits for icons (<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>)
+- ~~Add credits for icons~~
