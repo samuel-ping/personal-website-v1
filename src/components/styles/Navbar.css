@@ -1,18 +1,17 @@
 #navbar {
   overflow: hidden;
-  z-index: 1;
+  position: sticky;
+  top: 0;
   list-style-type: none;
   background-color: #4e8050;
-  margin-bottom: 0;
   width: 100%;
-  text-align: center;
   display: flex;
   justify-content: center;
 }
 
 #navbar a {
   float: left;
-  display: block;
+  /* display: block; */
   color: #f2f2f2;
   /* Change padding for more space in navbar */
   padding: 1em 3em;

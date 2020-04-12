@@ -15,7 +15,7 @@ class ContactTab extends Component {
             <li>samuel.ping@rutgers.edu</li>
           </ul>
           <h2>
-            ... or just click the icon above next to the LinkedIn icon to
+            ... or just click the icon above/below next to the LinkedIn icon to
             directly send me an email!
           </h2>
         </div>
