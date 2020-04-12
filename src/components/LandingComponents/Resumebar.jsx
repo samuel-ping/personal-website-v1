@@ -10,27 +10,35 @@ export default class Resumebar extends Component {
   render() {
     return (
       <ul id="icon-bar">
-        <li class="icon-button">
-          <a href={Resume} target="_blank">
-            <img src={ResumeIcon} />
+        <li className="icon-button">
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
+            <img src={ResumeIcon} alt="Resume" />
           </a>
         </li>
-        <li class="icon-button">
-          <a href="https://github.com/samuel-ping" target="_blank">
-            <img src={GitHubIcon} />
+        <li className="icon-button">
+          <a
+            href="https://github.com/samuel-ping"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={GitHubIcon} alt="GitHub" />
           </a>
         </li>
-        <li class="icon-button">
-          <a href="https://linkedin.com/in/samuelping" target="_blank">
-            <img src={LinkedInIcon} />
+        <li className="icon-button">
+          <a
+            href="https://linkedin.com/in/samuelping"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={LinkedInIcon} alt="LinkedIn" />
           </a>
         </li>
-        <li class="icon-button">
+        <li className="icon-button">
           <a
             href="mailto:samuel.y.ping@gmail.com?Subject=Hey%20there!"
             target="_top"
           >
-            <img src={EmailIcon} />
+            <img src={EmailIcon} alt="Email Me" />
           </a>
         </li>
       </ul>
