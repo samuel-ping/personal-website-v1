@@ -9,7 +9,7 @@ The main site is done!
 - Pictures in pages
 - More details in pages
 - ~~Add credits at bottom~~
-- ~~Make the scrolling arrow work! (react-scroll? scrollIntoView()?) Scroll down until you reach navbar. (https://stackoverflow.com/questions/43441856/reactjs-how-to-scroll-to-an-element)~~ Done! Used react-scroll!
+- ~~Make the scrolling arrow work! (react-scroll? scrollIntoView()?) Scroll down until you reach navbar.~~ Done! Used react-scroll!
 - ~~Make navbar sticky!~~
 - In the navbar, show which tab you're currently in. Use state for this... probably. Can fill background color for tab changing effect. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
 - Add tooltips to icon buttons
