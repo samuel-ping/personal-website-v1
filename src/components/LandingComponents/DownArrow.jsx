@@ -11,7 +11,6 @@ export default class DownArrow extends Component {
           to="navbar"
           spy={true}
           smooth={true}
-          // offset={-70}
           duration={500}
         >
           <div>

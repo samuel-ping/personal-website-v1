@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
@@ -8,6 +9,8 @@ import "./components/styles/General.css";
 
 export default class App extends Component {
   render() {
+    ReactGA.initialize("UA-163484661-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div>
         <Landing />
