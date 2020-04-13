@@ -4,6 +4,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
+- Fix favicon
 - More details in pages- use cards list for projects
 - In the navbar, show which tab you're currently in. Use state for this... probably. Can fill background color for tab changing effect. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
 - Add tooltips to icon buttons
@@ -12,7 +13,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Make resume icon more like a button like on Sydney's website :p But it might not as good, who knows
 - Scrollbar support for Firefox?
 - Credits are a little messed up on Firefox (too high), I made a temp solution but it bothers me
-- Add Google Analytics?
+- Add Google Analytics
 - Responsiveness can always use some work
 - If you make the screen super thin, small white space at bottom of website :(
 
