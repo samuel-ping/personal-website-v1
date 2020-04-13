@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 
 import ReactGA from "react-ga";
 import { Router } from "react-router-dom";
@@ -10,26 +10,32 @@ import Credits from "./components/Credits";
 
 import "./components/styles/General.css";
 
-const history = createBrowserHistory();
-
 ReactGA.initialize("UA-163484661-1");
 // ReactGA.pageview("/about-me");
+var history = createBrowserHistory();
 
-history.listen((location) => {
-  ReactGA.set({ page: location.pathname }); // Update the user's current page
-  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+history.listen((location, action) => {
+  ReactGA.pageview(location.pathname + location.search);
+  console.log(location.pathname);
 });
+
+// history.listen((location) => {
+//   ReactGA.set({ page: location.pathname }); // Update the user's current page
+//   ReactGA.pageview(location.pathname); // Record a pageview for the given page
+// });
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <Router history={history}>
+      // <div>
+      <Router history={history}>
+        <div>
           <Landing />
           <Navbar />
           <Credits />
-        </Router>
-      </div>
+        </div>
+      </Router>
+      // </div>
     );
   }
 }

@@ -4,7 +4,11 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
+- ### Refreshing page from any tab leads to 404
 - Fix favicon
+- On mobile, turn navbar horizontal
+- Fix icons on mobile
+- Fix h3 (waay too big on mobile)
 - More details in pages- use cards list for projects
 - In the navbar, show which tab you're currently in. Use state for this... probably. Can fill background color for tab changing effect. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
 - Add tooltips to icon buttons
@@ -31,7 +35,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ### Changed
 
-- Deployed website
+- Deployed website for the first time!
 - Changed accent color from purple to red
 
 ## [0.0.1] - 2020-04-11
@@ -47,3 +51,9 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Found icons that don't require attribution (they're from https://materialdesignicons.com/)
 - Icon links only work on the icon part of the button, not the whole thing
 - De-uglified mobile a bit
+
+## [0.0.0.1] - 2020-04-10
+
+### Changed
+
+- Began the construction of this website
