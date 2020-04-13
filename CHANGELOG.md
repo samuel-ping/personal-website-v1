@@ -18,8 +18,8 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ### How to update and redeploy website:
 
-1. push changes
-2. bring other branch up to date with the one you just pushed changes to using git rebase
+1. push changes- it may help to force the push using -f
+2. bring other branch up to date with the one you just pushed changes to using "git rebase"
 3. push changes for updated branch
 4. run npm run deploy
 5. don't forget to re-add custom domain in Github

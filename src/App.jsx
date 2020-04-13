@@ -10,7 +10,7 @@ import "./components/styles/General.css";
 export default class App extends Component {
   render() {
     ReactGA.initialize("UA-163484661-1");
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview("/");
     return (
       <div>
         <Landing />
