@@ -6,21 +6,21 @@ ul {
   font-family: Biryani;
   color: white;
   align-content: center;
+  background-color: #a44a4a;
 }
 
 ::-webkit-scrollbar {
-  width: 1rem;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-thumb {
-  /* background: #926190; */
   background: #b95353;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  /* background: #754877; */
   background: #904040;
 }
 
-/* ::-webkit-scrollbar-track-piece {
-} */
+::-webkit-scrollbar-track-piece {
+  background: whitesmoke;
+}

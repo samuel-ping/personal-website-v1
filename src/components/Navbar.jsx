@@ -48,8 +48,6 @@ class Navbar extends Component {
             </li>
           </ul>
 
-          {/* <Redirect exact from="/" to="/about-me" /> */}
-
           <Switch>
             <Route path="/about-me">
               <About />

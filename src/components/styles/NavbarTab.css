@@ -2,7 +2,6 @@
   font-family: Roboto;
   margin: 0;
   padding: 1vh 4vw;
-  /* height: auto; */
   display: block;
 
   color: black;
@@ -13,12 +12,20 @@
   margin: 10vh 10vw;
 }
 
+.text-area li {
+  background-color: #b1d8b5;
+}
+
 h1 {
   font-size: 2.5vw;
 }
 
 h2 {
   font-size: 1.7vw;
+}
+
+h3 {
+  font-size: 1.3vw;
 }
 
 p {

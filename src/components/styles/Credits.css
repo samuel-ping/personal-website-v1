@@ -5,14 +5,16 @@
   justify-content: center;
   background-color: #a44a4a;
   padding: 2vh 30vw;
-  position: relative;
+  padding: 2vh auto;
+  align-content: center;
+  overflow: auto;
 }
 
 #credits {
+  width: 100%;
+  background-color: #a44a4a;
   font-size: 1vw;
-  /* position: relative; */
   margin-top: 10vh;
-  /* padding: auto 0; */
   text-align: center;
   justify-content: center;
   position: absolute;

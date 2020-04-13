@@ -18,11 +18,37 @@
   text-decoration: none;
   background-size: 100% 200%;
   background-image: linear-gradient(to top, #b95353 50%, #4e8050 50%);
-  /* background-image: linear-gradient(to top, #845c83 50%, #4e8050 50%); */
   transition: background-position 0.4s;
   border-bottom: 5px solid #b95353;
 }
 
 #navbar a:hover {
   background-position: 0 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    /* overflow: hidden; */
+  }
+
+  #navbar a {
+    float: none;
+    padding: 0vw 3vw;
+    height: auto;
+    border-bottom: none;
+    background-size: 100% 100%;
+    background-image: none;
+  }
+
+  #navbar li {
+    padding: 2vh 1vw;
+    transition-duration: 0.2s;
+  }
+
+  #navbar li:hover {
+    background-color: #b95353;
+  }
 }

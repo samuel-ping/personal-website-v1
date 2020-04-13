@@ -1,9 +1,15 @@
+#color-background {
+  background-color: rgba(2, 75, 48, 0.6);
+  max-width: 100%;
+  width: 100vw;
+  height: auto;
+}
+
 #landing {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: #024b30;
-  overflow: hidden;
+  overflow: auto;
   margin-top: 0;
   background: url("../../assets/images/landscapeportrait2center.jpg");
   background-position: center center;
@@ -13,7 +19,7 @@
   max-height: 100vh;
 }
 
-#description-background {
+.description-background {
   background-color: rgba(2, 75, 48, 0.6);
 }
 
@@ -30,7 +36,8 @@
   font-size: 4vh;
   position: relative;
   margin-top: 0;
-  margin-bottom: 5vh;
+  margin-bottom: 0;
+  padding-bottom: 2vh;
 }
 
 .very-cool-red-hover-effect {
@@ -44,12 +51,13 @@
 
 /* ICON BAR */
 #icon-bar {
+  overflow: hidden;
   list-style-type: none;
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  margin-bottom: 7vh;
+  background: transparent;
 }
 
 .icon-button {
@@ -71,12 +79,13 @@
 }
 
 .icon-button img {
-  width: 2.5rem;
-  height: 2.5rem;
+  /* display: block; */
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
 }
 
 .icon-button:hover {
-  /* background-color: #593b61; */
   background-color: #b95353;
 }
 
