@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
 
 import "../styles/NavbarTab.css";
-
-ReactGA.initialize("UA-163484661-1");
-ReactGA.pageview("/about-me");
 
 class AboutTab extends Component {
   state = {};

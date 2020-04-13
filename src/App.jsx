@@ -11,10 +11,10 @@ import Credits from "./components/Credits";
 import "./components/styles/General.css";
 
 ReactGA.initialize("UA-163484661-1");
-// ReactGA.pageview("/about-me");
-var history = createBrowserHistory();
+ReactGA.pageview("/about-me");
+// var history = createBrowserHistory();
 
-console.log("4242");
+// console.log("4242");
 export default class App extends Component {
   render() {
     // history.listen((location, action) => {
@@ -27,13 +27,13 @@ export default class App extends Component {
 
     return (
       // <div>
-      <Router history={history}>
-        <div>
-          <Landing />
-          <Navbar />
-          <Credits />
-        </div>
-      </Router>
+      // <Router history={history}>
+      <div>
+        <Landing />
+        <Navbar />
+        <Credits />
+      </div>
+      // </Router>
       // </div>
     );
   }
