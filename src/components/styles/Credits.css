@@ -3,13 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #804e7e;
-  padding: 8vh 30vh;
+  background-color: #a44a4a;
+  padding: 2vh 30vw;
   position: relative;
 }
 
 #credits {
-  font-size: 1rem;
+  font-size: 1vw;
   /* position: relative; */
   margin-top: 10vh;
   /* padding: auto 0; */

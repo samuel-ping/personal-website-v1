@@ -13,9 +13,9 @@ class CourseworkTab extends Component {
           <ul>
             <li>01:640:250 Introduction to Linear Algebra</li>
             <li>01:198:112 Data Structures</li>
-            <li>Introduction to Management</li>
-            <li>Business Forum</li>
-            <li>Introduction to World Music</li>
+            <li>33:620:301 Introduction to Management</li>
+            <li>33:011:300 Business Forum</li>
+            <li>07:700:292 Introduction to World Music</li>
           </ul>
           <h2>Fall 2019</h2>
           <ul>

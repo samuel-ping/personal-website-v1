@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Biryani|Roboto&display=swap");
 body,
 ul {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: Biryani;
   color: white;
   align-content: center;
 }
@@ -14,9 +13,14 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #926190;
+  /* background: #926190; */
+  background: #b95353;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #754877;
+  /* background: #754877; */
+  background: #904040;
 }
+
+/* ::-webkit-scrollbar-track-piece {
+} */

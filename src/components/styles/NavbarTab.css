@@ -1,4 +1,5 @@
 .a-tab {
+  font-family: Roboto;
   margin: 0;
   padding: 1vh 4vw;
   /* height: auto; */
@@ -13,24 +14,19 @@
 }
 
 h1 {
-  font-size: 2.5rem;
-  /* margin-top: 1vh; */
+  font-size: 2.5vw;
 }
 
 h2 {
-  font-size: 1.7rem;
-}
-
-h3 {
-  /* margin-top: -1vh; */
+  font-size: 1.7vw;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 ul {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 li {
