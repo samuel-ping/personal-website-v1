@@ -26,7 +26,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename="/#">
           <ul id="navbar">
             <li className="tab">
               <Link to="/about-me">About Me</Link>
