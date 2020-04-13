@@ -4,8 +4,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
-- ### Refreshing page from any tab leads to 404
-- Fix favicon
+- Fix favicon on Chrome... every solution I've tried hasn't worked yet
 - On mobile, turn navbar horizontal
 - Fix icons on mobile
 - Fix h3 (waay too big on mobile)
@@ -30,6 +29,17 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 5. don't forget to re-add custom domain in Github
 
 ##### Colors used: https://colorswall.com/palette/24439/, variations of #4e8050
+
+## [1.1.2] - 2020-04-13
+
+### Added
+
+- Google Analytics but after a lot of tinkering it doesn't work anymore
+
+### Changed
+
+- Refreshing page shouldn't lead to 404 anymore
+- Moved GA ID to .env file
 
 ## [1.0.0] - 2020-04-12
 

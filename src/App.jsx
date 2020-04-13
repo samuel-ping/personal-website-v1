@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 import ReactGA from "react-ga";
-import { Router } from "react-router-dom";
-import { createBrowserHistory } from "history";
+// import { Router } from "react-router-dom";
+// import { createBrowserHistory } from "history";
 
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
@@ -10,7 +10,7 @@ import Credits from "./components/Credits";
 
 import "./components/styles/General.css";
 
-ReactGA.initialize("UA-163484661-1");
+ReactGA.initialize(process.env.GOOGLE_ANALYTICS_ID);
 ReactGA.pageview("/about-me");
 // var history = createBrowserHistory();
 
