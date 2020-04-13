@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 
 import ReactGA from "react-ga";
 import { Router } from "react-router-dom";
@@ -17,13 +17,14 @@ var history = createBrowserHistory();
 history.listen((location, action) => {
   ReactGA.pageview(location.pathname + location.search);
   console.log(location.pathname);
+  console.log("do you see me?");
 });
 
 // history.listen((location) => {
 //   ReactGA.set({ page: location.pathname }); // Update the user's current page
 //   ReactGA.pageview(location.pathname); // Record a pageview for the given page
 // });
-
+console.log("4242");
 export default class App extends Component {
   render() {
     return (
