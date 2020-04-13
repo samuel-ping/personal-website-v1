@@ -27,3 +27,9 @@ The main site is done!
 - ~~It looks so ugly on mobile!!! Responsive web design? Scaling stuff to device dimensions?~~
 - ~~Navbar broken on smaller screens!~~
 - ~~Changed accent color from purple to red~~
+
+### Note to self on updating website:
+
+1. push changes
+2. bring other branch up to date with the one you just pushed changes to using git rebase
+3. push changes for updated branch
