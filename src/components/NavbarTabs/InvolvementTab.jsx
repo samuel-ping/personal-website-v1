@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 
 import "../styles/NavbarTab.css";
-
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-163484661-1");
+ReactGA.pageview("/involvement");
 class InvolvementTab extends Component {
   state = {};
   render() {
