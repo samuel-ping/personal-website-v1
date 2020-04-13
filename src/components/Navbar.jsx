@@ -26,7 +26,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter basename="/#">
+        <BrowserRouter basename="${process.env.PUBLIC_URL}/">
           <ul id="navbar">
             <li className="tab">
               <Link to="/about-me">About Me</Link>
@@ -49,22 +49,22 @@ class Navbar extends Component {
           </ul>
 
           <Switch>
-            <Route path="/#/about-me">
+            <Route path="/about-me">
               <About />
             </Route>
-            <Route path="/#/involvement">
+            <Route path="/involvement">
               <Involvement />
             </Route>
-            <Route path="/#/projects">
+            <Route path="/projects">
               <Projects />
             </Route>
-            <Route path="/#/experience">
+            <Route path="/experience">
               <Experience />
             </Route>
-            <Route path="/#/coursework">
+            <Route path="/coursework">
               <Coursework />
             </Route>
-            <Route path="/#/contact">
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
