@@ -4,7 +4,6 @@ import {
   Route,
   Switch,
   Link,
-  Redirect,
   // Redirect,
   // useLocation,
 } from "react-router-dom";
@@ -27,7 +26,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename="/#">
           <ul id="navbar">
             <li className="tab">
               <Link to="/about-me">About Me</Link>
@@ -50,9 +49,6 @@ class Navbar extends Component {
           </ul>
 
           <Switch>
-            <Route exact path="/">
-              <Redirect to="/about-me" />
-            </Route>
             <Route path="/about-me">
               <About />
             </Route>
