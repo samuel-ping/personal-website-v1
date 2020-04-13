@@ -10,7 +10,7 @@ import Credits from "./components/Credits";
 
 import "./components/styles/General.css";
 
-ReactGA.initialize(process.env.GOOGLE_ANALYTICS_ID);
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
 ReactGA.pageview("/about-me");
 // var history = createBrowserHistory();
 

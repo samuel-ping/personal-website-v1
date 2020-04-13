@@ -4,7 +4,10 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
+- Credits at bottom overlapping with buttons.
 - More details in pages- use cards list for projects
+- Make the vertical navbar collapse
+- Don't think the .env is working lol
 - I just realized my scroll down arrow isn't centered with the resume buttons!
 - Add familiar technologies to About tab, and organize it nicely
 - In the navbar, show which tab you're currently in. Use state for this... probably. Can fill background color for tab changing effect. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
@@ -28,7 +31,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### Colors used: https://colorswall.com/palette/51884
 
-## [1.1.3] - 2020-04-13
+## [1.1.4] - 2020-04-13
 
 ### Added
 
@@ -43,6 +46,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Icons now responsive!
 - Navbar vertical when screen is small enough!
 - Added MIT license because why not!
+- Fixed basename
 
 ## [1.0.0] - 2020-04-12
 
