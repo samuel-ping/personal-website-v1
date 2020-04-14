@@ -1,9 +1,6 @@
 #credits-bar {
-  max-width: 100vw;
+  max-width: 100%;
   background-color: #a44a4a;
   display: grid;
   place-items: center;
-  grid-template: 1fr 1fr;
-  padding: 2vh auto;
-  overflow: auto;
 }

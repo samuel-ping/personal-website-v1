@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import ReactGA from "react-ga";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 // import { Router } from "react-router-dom";
 // import { createBrowserHistory } from "history";
 
@@ -30,6 +31,7 @@ export default class App extends Component {
       // <Router history={history}>
       <div>
         <Landing />
+        <ScrollUpButton ContainerClassName="scroll-up-button" />
         <Navbar />
         <Credits />
       </div>

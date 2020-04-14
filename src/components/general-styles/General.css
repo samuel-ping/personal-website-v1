@@ -26,3 +26,8 @@ ul {
 ::-webkit-scrollbar-track-piece {
   background: whitesmoke;
 }
+
+.scroll-up-button {
+  background-color: transparent !important;
+  fill: white !important;
+}

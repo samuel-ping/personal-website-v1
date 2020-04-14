@@ -1,13 +1,7 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-  NavLink,
-  // Link,
-  // Redirect,
-  // useLocation,
-} from "react-router-dom";
+
+import { BrowserRouter, Route, Switch, NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 import AboutTab from "./NavbarTabs/AboutTab";
 import InvolvementTab from "./NavbarTabs/InvolvementTab";
@@ -19,33 +13,38 @@ import ContactTab from "./NavbarTabs/ContactTab";
 import "./general-styles/Navbar.css";
 
 class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    // this.state = { pathname: "/" };
-  }
-
   render() {
     return (
       <BrowserRouter basename="/">
         <div id="navbar">
-          <NavLink className="link-tab" to="/about-me">
-            About Me
-          </NavLink>
-          <NavLink className="link-tab" to="/involvement">
-            Involvement
-          </NavLink>
-          <NavLink className="link-tab" to="/projects">
-            Projects
-          </NavLink>
-          <NavLink className="link-tab" to="/experience">
-            Work Experience
-          </NavLink>
-          <NavLink className="link-tab" to="/coursework">
-            Coursework
-          </NavLink>
-          <NavLink className="link-tab" to="/contact">
-            Contact Me
-          </NavLink>
+          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+            <NavLink className="link-tab" to="/about-me">
+              About Me
+            </NavLink>
+          </Link>
+          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+            <NavLink className="link-tab" to="/involvement">
+              Involvement
+            </NavLink>
+          </Link>
+          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+            <NavLink className="link-tab" to="/projects">
+              Projects
+            </NavLink>
+          </Link>
+          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+            <NavLink className="link-tab" to="/experience">
+              Work Experience
+            </NavLink>
+          </Link>
+          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+            <NavLink className="link-tab" to="/coursework">
+              Coursework
+            </NavLink>
+            <NavLink className="link-tab" to="/contact">
+              Contact Me
+            </NavLink>
+          </Link>
         </div>
 
         <Switch>
@@ -73,7 +72,6 @@ class Navbar extends Component {
 
     function About() {
       return <AboutTab />;
-      // return GetPathname(); // testing how to get current path name
     }
 
     function Involvement() {
@@ -95,12 +93,6 @@ class Navbar extends Component {
     function Contact() {
       return <ContactTab />;
     }
-
-    // function GetPathname() {
-    //   let location = useLocation();
-    //   // console.log(location.pathname);
-    //   return <h1>{location.pathname}</h1>;
-    // }
   }
 }
 

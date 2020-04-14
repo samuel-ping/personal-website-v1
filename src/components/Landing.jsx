@@ -18,6 +18,7 @@ export default class Landing extends Component {
             <DownArrow />
           </div>
         </div>
+        <div id="landing-bottom" />
       </div>
     );
   }

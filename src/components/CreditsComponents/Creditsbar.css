@@ -5,3 +5,9 @@
   text-align: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+  #credits {
+    font-size: 2vw;
+  }
+}
