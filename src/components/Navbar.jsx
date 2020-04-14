@@ -3,7 +3,8 @@ import {
   BrowserRouter,
   Route,
   Switch,
-  Link,
+  NavLink,
+  // Link,
   // Redirect,
   // useLocation,
 } from "react-router-dom";
@@ -25,51 +26,49 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div>
-        <BrowserRouter basename="/">
-          <ul id="navbar">
-            <li className="tab">
-              <Link to="/about-me">About Me</Link>
-            </li>
-            <li className="tab">
-              <Link to="/involvement">Involvement</Link>
-            </li>
-            <li className="tab">
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li className="tab">
-              <Link to="/experience">Work Experience</Link>
-            </li>
-            <li className="tab">
-              <Link to="/coursework">Coursework</Link>
-            </li>
-            <li className="tab">
-              <Link to="/contact">Contact Me</Link>
-            </li>
-          </ul>
+      <BrowserRouter basename="/">
+        <div id="navbar">
+          <NavLink className="link-tab" to="/about-me">
+            About Me
+          </NavLink>
+          <NavLink className="link-tab" to="/involvement">
+            Involvement
+          </NavLink>
+          <NavLink className="link-tab" to="/projects">
+            Projects
+          </NavLink>
+          <NavLink className="link-tab" to="/experience">
+            Work Experience
+          </NavLink>
+          <NavLink className="link-tab" to="/coursework">
+            Coursework
+          </NavLink>
+          <NavLink className="link-tab" to="/contact">
+            Contact Me
+          </NavLink>
+        </div>
 
-          <Switch>
-            <Route path="/about-me">
-              <About />
-            </Route>
-            <Route path="/involvement">
-              <Involvement />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/experience">
-              <Experience />
-            </Route>
-            <Route path="/coursework">
-              <Coursework />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </Switch>
-        </BrowserRouter>
-      </div>
+        <Switch>
+          <Route path="/about-me">
+            <About />
+          </Route>
+          <Route path="/involvement">
+            <Involvement />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/experience">
+            <Experience />
+          </Route>
+          <Route path="/coursework">
+            <Coursework />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     );
 
     function About() {

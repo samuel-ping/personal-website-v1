@@ -5,9 +5,9 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 ## [Unreleased]
 
 - More details in pages- use cards list for projects
+- Make page start on about-me route
 - Make the vertical navbar collapse
 - Add familiar technologies to About tab, and organize it nicely
-- In the navbar, show which tab you're currently in. Use state for this... probably. The border is good to show what's selected. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
 - Add "scroll up" button at bottom of each navbar tab
 - Make stuff fade in (use React-Motion?)
 - Scrollbar support for Firefox?
@@ -24,7 +24,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### Colors used: https://colorswall.com/palette/51884
 
-## [1.1.11] - 2020-04-14
+## [1.1.12] - 2020-04-14
 
 ### Added
 
@@ -40,6 +40,8 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 - Fixed the credits at bottom
 - Icons work much better on mobile now
+- Fixed navbar on mobile! Now the whole button is actually the link, not just the text. This took a while to fix...
+- Navbar indicates current tab on both big screens and small!
 
 ## [1.1.8] - 2020-04-13
 

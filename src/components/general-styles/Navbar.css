@@ -3,24 +3,25 @@
   overflow: hidden;
   position: sticky;
   top: 0;
-  list-style-type: none;
   background-color: #4e8050;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-#navbar a {
+a.link-tab {
   float: left;
   color: #f2f2f2;
-  /* Change padding for more space in navbar */
   padding: 2vw 3vw;
   font-size: 1.5vw;
   text-decoration: none;
   background-size: 100% 200%;
   background-image: linear-gradient(to top, #b95353 50%, #4e8050 50%);
   transition: background-position 0.4s;
-  border-bottom: 5px solid #b95353;
+}
+
+a.link-tab.active {
+  border-bottom: 1vh solid #b95353;
 }
 
 #navbar a:hover {
@@ -29,26 +30,29 @@
 
 @media only screen and (max-width: 768px) {
   #navbar {
-    max-width: 100%;
-    text-align: center;
     display: block;
+    position: relative;
   }
 
-  #navbar a {
-    float: none;
-    padding: 0vw 3vw;
-    height: auto;
-    border-bottom: none;
-    background-size: 100% 100%;
-    background-image: none;
+  .link-tab {
+    text-align: center !important;
+    display: grid !important;
+    place-items: center !important;
+
+    font-size: 3vw !important;
+    padding: 3vw 0 !important;
+
+    border-bottom: none !important;
+    background-size: 100% 100% !important;
+    background-image: none !important;
   }
 
-  #navbar li {
-    padding: 2vh 1vw;
+  a.link-tab {
+    width: 100% !important;
     transition-duration: 0.2s;
   }
 
-  #navbar li:hover {
-    background-color: #b95353;
+  a.link-tab.active {
+    background-color: indianred;
   }
 }
