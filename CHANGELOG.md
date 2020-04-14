@@ -4,22 +4,19 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
-- Credits at bottom overlapping with buttons.
+- Credits at bottom overlapping with buttons on everything but Chrome. Why Chrome?
 - More details in pages- use cards list for projects
+- Organize code so that each component gets its own CSS file
 - Make the vertical navbar collapse
-- Don't think the .env is working lol
-- I just realized my scroll down arrow isn't centered with the resume buttons!
+- Buttons are very small on mobile
 - Add familiar technologies to About tab, and organize it nicely
 - In the navbar, show which tab you're currently in. Use state for this... probably. Can fill background color for tab changing effect. For reference: https://stackoverflow.com/questions/30376922/how-to-manage-active-state-in-bootstrap-navbar-in-react
 - Add tooltips to icon buttons
 - Add "scroll up" button at bottom of each navbar tab
 - Make stuff fade in (use React-Motion?)
-- Looks like navbar overlaps with scroll bar on mobile device
 - Scrollbar support for Firefox?
-- Credits are a little messed up on Firefox (too high), I made a temp solution but it bothers me
 - Responsiveness can always use some work
-- Fix favicon on Chrome... every solution I've tried hasn't worked yet
-- Make resume icon more like a button like on Sydney's website :p But it might not as good, who knows
+- Google Analytics for all pages
 
 ### How to update and redeploy website:
 
@@ -31,11 +28,11 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### Colors used: https://colorswall.com/palette/51884
 
-## [1.1.4] - 2020-04-13
+## [1.1.8] - 2020-04-13
 
 ### Added
 
-- Google Analytics but after a lot of tinkering it doesn't work anymore rip
+- Google Analytics but it only works for homepage
 
 ### Changed
 
@@ -46,7 +43,9 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Icons now responsive!
 - Navbar vertical when screen is small enough!
 - Added MIT license because why not!
-- Fixed basename
+- Fixed refresh problem (https://github.com/facebook/create-react-app/issues/1765#issuecomment-443598257 is a goat)
+- Favicon suddenly started working! Yay?
+- Centered the scroll arrows!
 
 ## [1.0.0] - 2020-04-12
 

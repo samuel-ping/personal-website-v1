@@ -20,7 +20,7 @@ import "./styles/Navbar.css";
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.state = { pathname: "/about-me" };
+    // this.state = { pathname: "/about-me" };
   }
 
   render() {

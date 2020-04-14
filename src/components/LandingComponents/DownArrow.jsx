@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 export default class DownArrow extends Component {
   render() {
     return (
-      <section id="down-arrow">
+      <div id="down-arrow">
         <Link
           activeClass="active"
           to="navbar"
@@ -18,7 +18,7 @@ export default class DownArrow extends Component {
             <span></span>
           </div>
         </Link>
-      </section>
+      </div>
     );
   }
 }

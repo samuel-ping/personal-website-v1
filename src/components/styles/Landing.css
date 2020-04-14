@@ -79,7 +79,6 @@
 }
 
 .icon-button img {
-  /* display: block; */
   width: 40%;
   height: 40%;
   object-fit: cover;
@@ -90,34 +89,26 @@
 }
 
 /* DOWN SCROLL ARROW BUTTON */
-section {
-  position: relative;
-  display: flex;
-}
-
 #down-arrow div:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 
 #down-arrow div {
-  margin-top: 5vh;
-  padding-top: 60px;
   color: #fff;
-  letter-spacing: 0.1em;
   text-decoration: none;
   transition: opacity 0.3s;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+  padding-bottom: 2vh;
 }
 
 #down-arrow div span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 40px;
-  height: 40px;
-  margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 0.1vw solid #fff;
+  border-bottom: 0.1vh solid #fff;
+  width: 2vw;
+  height: 2vw;
   transform: rotate(-45deg);
   animation: scrolldownbutton 2s infinite;
 }
@@ -129,8 +120,8 @@ section {
 
 #down-arrow div span:nth-of-type(2) {
   top: 16px;
-  -webkit-animation-delay: 0.15s;
-  animation-delay: 0.15s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 @keyframes scrolldownbutton {
