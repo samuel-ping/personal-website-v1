@@ -1,12 +1,11 @@
 #credits-bar {
   max-width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #a44a4a;
+  display: grid;
+  place-items: center;
+  grid-template: 1fr 1fr;
   padding: 2vh 30vw;
   padding: 2vh auto;
-  align-content: center;
   overflow: auto;
 }
 
@@ -14,8 +13,6 @@
   width: 100%;
   background-color: #a44a4a;
   font-size: 1vw;
-  margin-top: 10vh;
   text-align: center;
   justify-content: center;
-  position: absolute;
 }

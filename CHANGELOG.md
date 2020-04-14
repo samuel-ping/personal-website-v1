@@ -18,7 +18,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Responsiveness can always use some work
 - Google Analytics for all pages
 
-### How to update and redeploy website:
+##### How to update and redeploy website:
 
 1. push changes- it may help to force the push using -f
 2. bring other branch up to date with the one you just pushed changes to using "git rebase"
@@ -28,24 +28,32 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### Colors used: https://colorswall.com/palette/51884
 
+## [1.1.9] - 2020-04-14
+
+### Fixed
+
+- Fixed the credits at bottom
+
 ## [1.1.8] - 2020-04-13
 
 ### Added
 
 - Google Analytics but it only works for homepage
+- Added MIT license because why not!
 
 ### Changed
 
-- Refreshing page shouldn't lead to 404 anymore
 - Moved GA ID to .env file
 - Code flow reorganized to be more logical
-- Fixed headers
 - Icons now responsive!
 - Navbar vertical when screen is small enough!
-- Added MIT license because why not!
-- Fixed refresh problem (https://github.com/facebook/create-react-app/issues/1765#issuecomment-443598257 is a goat)
 - Favicon suddenly started working! Yay?
-- Centered the scroll arrows!
+
+### Fixed
+
+- Fixed headers
+- Fixed refresh problem (https://github.com/facebook/create-react-app/issues/1765#issuecomment-443598257 is a goat)
+- Centered the scroll arrows! And it's responsive.
 
 ## [1.0.0] - 2020-04-12
 

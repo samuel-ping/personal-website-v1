@@ -89,24 +89,24 @@
 }
 
 /* DOWN SCROLL ARROW BUTTON */
-#down-arrow div:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}
-
 #down-arrow div {
   color: #fff;
   text-decoration: none;
-  transition: opacity 0.3s;
   display: grid;
-  grid-template: 1fr / 1fr;
   place-items: center;
-  padding-bottom: 2vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+#down-arrow div:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition-duration: 0.5s;
 }
 
 #down-arrow div span {
   border-left: 0.1vw solid #fff;
-  border-bottom: 0.1vh solid #fff;
+  border-bottom: 0.1vw solid #fff;
   width: 2vw;
   height: 2vw;
   transform: rotate(-45deg);
