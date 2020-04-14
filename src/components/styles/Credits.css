@@ -4,7 +4,6 @@
   display: grid;
   place-items: center;
   grid-template: 1fr 1fr;
-  padding: 2vh 30vw;
   padding: 2vh auto;
   overflow: auto;
 }
