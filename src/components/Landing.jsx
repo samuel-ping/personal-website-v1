@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 
-import PageGreeting from "./LandingComponents/PageGreeting";
-import Resumebar from "./LandingComponents/Resumebar";
-import DownArrow from "./LandingComponents/DownArrow";
+import PageGreeting from "./LandingComponents/PageGreeting/PageGreeting";
+import Iconbar from "./LandingComponents/Iconbar/Iconbar";
+import DownArrow from "./LandingComponents/DownArrow/DownArrow";
 
-import "./styles/Landing.css";
+import "./general-styles/Landing.css";
 
 export default class Landing extends Component {
   render() {
     return (
-      // <div id="transparent-green-background">
       <div>
         <div id="portrait-background" />
         <div id="landing">
           <PageGreeting />
           <div id="color-background">
-            <Resumebar />
+            <Iconbar />
             <DownArrow />
           </div>
         </div>

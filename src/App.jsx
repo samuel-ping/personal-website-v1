@@ -8,7 +8,7 @@ import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
 import Credits from "./components/Credits";
 
-import "./components/styles/General.css";
+import "./components/general-styles/General.css";
 
 ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
 ReactGA.pageview("/about-me");

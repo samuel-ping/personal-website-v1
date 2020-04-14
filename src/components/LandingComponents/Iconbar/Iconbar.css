@@ -1,0 +1,55 @@
+#icon-bar {
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: transparent;
+}
+
+.icon-button {
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0vw;
+  width: 6vw;
+  height: 6vw;
+  transition-duration: 0.2s;
+  margin: 1vh 1vw;
+}
+
+.icon-button img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.icon-button:hover {
+  background-color: #b95353;
+}
+
+.tooltip-theme {
+  font-size: 0.8vw !important;
+  font-family: Biryani !important;
+  font-weight: bolder !important;
+  background-color: #b95353 !important;
+}
+
+.tooltip-theme.place-bottom::after {
+  border-bottom: 8px solid #b95353 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-button {
+    width: 15vw;
+    height: 15vw;
+  }
+}

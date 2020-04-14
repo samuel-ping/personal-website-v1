@@ -15,12 +15,12 @@ import ExperienceTab from "./NavbarTabs/ExperienceTab";
 import CourseworkTab from "./NavbarTabs/CourseworkTab";
 import ContactTab from "./NavbarTabs/ContactTab";
 
-import "./styles/Navbar.css";
+import "./general-styles/Navbar.css";
 
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    // this.state = { pathname: "/about-me" };
+    // this.state = { pathname: "/" };
   }
 
   render() {

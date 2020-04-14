@@ -2,11 +2,13 @@ import React, { Component } from "react";
 
 import ReactTooltip from "react-tooltip";
 
-import Resume from "../../assets/samuel-ping.3-26-20.pdf";
-import ResumeIcon from "../../assets/images/icons/resume.svg";
-import GitHubIcon from "../../assets/images/icons/github.svg";
-import LinkedInIcon from "../../assets/images/icons/linkedin.svg";
-import EmailIcon from "../../assets/images/icons/email.svg";
+import Resume from "../../../assets/samuel-ping.3-26-20.pdf";
+import ResumeIcon from "../../../assets/images/icons/resume.svg";
+import GitHubIcon from "../../../assets/images/icons/github.svg";
+import LinkedInIcon from "../../../assets/images/icons/linkedin.svg";
+import EmailIcon from "../../../assets/images/icons/email.svg";
+
+import "./Iconbar.css";
 
 export default class Resumebar extends Component {
   render() {

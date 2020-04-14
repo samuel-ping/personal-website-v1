@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "../styles/NavbarTab.css";
+import "./NavbarTab.css";
 
 class ExperienceTab extends Component {
   state = {};

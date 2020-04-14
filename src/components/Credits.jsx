@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-import Resumebar from "./LandingComponents/Resumebar";
+import Iconbar from "./LandingComponents/Iconbar/Iconbar";
 import Creditsbar from "./CreditsComponents/Creditsbar";
 
-import "./styles/Credits.css";
+import "./general-styles/Credits.css";
 
 export default class Credits extends Component {
   render() {
     return (
       <div id="credits-bar">
-        <Resumebar />
+        <Iconbar />
         <Creditsbar />
       </div>
     );

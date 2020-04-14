@@ -1,5 +1,5 @@
 .a-tab {
-  font-family: Roboto;
+  font-family: Biryani;
   margin: 0;
   padding: 1vh 4vw;
   display: block;
@@ -29,6 +29,8 @@ h3 {
 }
 
 p {
+  font-family: Oxygen, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5vw;
 }
 
@@ -37,5 +39,7 @@ ul {
 }
 
 li {
+  font-family: Oxygen, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: black;
 }

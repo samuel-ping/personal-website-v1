@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "./PageGreeting.css";
+
 export default class PageGreeting extends Component {
   render() {
     return (

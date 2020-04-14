@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import { Link } from "react-scroll";
 
+import "./DownArrow.css";
+
 export default class DownArrow extends Component {
   render() {
     return (
