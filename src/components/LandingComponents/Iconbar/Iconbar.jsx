@@ -22,7 +22,7 @@ export default class Resumebar extends Component {
             rel="noopener noreferrer"
             data-tip="Resume"
           >
-            <img src={ResumeIcon} alt="Resume" />
+            <img src={ResumeIcon} alt="Resume" class="color-svg-white" />
           </a>
           <ReactTooltip
             className="tooltip-theme"
@@ -39,7 +39,7 @@ export default class Resumebar extends Component {
             rel="noopener noreferrer"
             data-tip="Github"
           >
-            <img src={GitHubIcon} alt="GitHub" />
+            <img src={GitHubIcon} alt="GitHub" class="color-svg-white" />
           </a>
           <ReactTooltip
             className="tooltip-theme"
@@ -56,7 +56,7 @@ export default class Resumebar extends Component {
             rel="noopener noreferrer"
             data-tip="LinkedIn"
           >
-            <img src={LinkedInIcon} alt="LinkedIn" />
+            <img src={LinkedInIcon} alt="LinkedIn" class="color-svg-white" />
           </a>
           <ReactTooltip
             className="tooltip-theme"
@@ -72,7 +72,7 @@ export default class Resumebar extends Component {
             target="_top"
             data-tip="Email Me"
           >
-            <img src={EmailIcon} alt="Email Me" />
+            <img src={EmailIcon} alt="Email Me" class="color-svg-white" />
           </a>
           <ReactTooltip
             className="tooltip-theme"

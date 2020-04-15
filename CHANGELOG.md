@@ -5,11 +5,12 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 ## [Unreleased]
 
 - More details in pages- use cards list for projects
-- Make the vertical navbar collapse
+- Add support for all browsers
+- Add picture to about-me
+- Make the vertical navbar collapse... maybe go to bootstrap
 - Add familiar technologies to About tab, and organize it nicely
 - Make stuff fade in (use React-Motion?)
 - Scrollbar support for Firefox?
-- Responsiveness can always use some work
 - Google Analytics for all pages
 
 ##### How to update and redeploy website:
@@ -22,7 +23,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### Colors used: https://colorswall.com/palette/51884
 
-## [1.1.13] - 2020-04-14
+## [1.1.14] - 2020-04-14
 
 ### Added
 
@@ -36,12 +37,15 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Thickened the down arrows
 - Reorganized code
 - Fiddled with fonts
+- Icon bar looks more modern
+- Navbar hover animation (unintentionally) changed, looks waay cooler now
 
 ### Fixed
 
 - Fixed the credits at bottom
 - Icons work much better on mobile now
 - Fixed navbar on mobile! Now the whole button is actually the link, not just the text. This took a while to fix...
+- Fixed gap underneath navbar button after finishing hovering over it
 
 ## [1.1.8] - 2020-04-13
 

@@ -9,8 +9,8 @@
 }
 
 .icon-button {
-  background-color: #ffffff;
-  border: none;
+  /* background-color: #ffffff; */
+  border: 0.2vw solid white;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -27,24 +27,30 @@
 }
 
 .icon-button img {
+  object-fit: cover;
   width: 40%;
   height: 40%;
-  object-fit: cover;
 }
 
 .icon-button:hover {
-  background-color: #b95353;
+  /* background-color: #b95353; */
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.color-svg-white {
+  filter: invert(100%) sepia(0%) saturate(3972%) hue-rotate(129deg)
+    brightness(119%) contrast(111%);
 }
 
 .tooltip-theme {
   font-size: 0.8vw !important;
   font-family: Biryani !important;
   font-weight: bolder !important;
-  background-color: #b95353 !important;
+  background-color: #fff !important;
 }
 
 .tooltip-theme.place-bottom::after {
-  border-bottom: 8px solid #b95353 !important;
+  border-bottom: 8px solid #fff !important;
 }
 
 @media only screen and (max-width: 768px) {

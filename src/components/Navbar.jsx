@@ -17,27 +17,27 @@ class Navbar extends Component {
     return (
       <BrowserRouter basename="/">
         <div id="navbar">
-          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+          <Link to="landing-bottom" smooth={true} duration={500}>
             <NavLink className="link-tab" to="/about-me">
               About Me
             </NavLink>
           </Link>
-          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+          <Link to="landing-bottom" smooth={true} duration={500}>
             <NavLink className="link-tab" to="/involvement">
               Involvement
             </NavLink>
           </Link>
-          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+          <Link to="landing-bottom" smooth={true} duration={500}>
             <NavLink className="link-tab" to="/projects">
               Projects
             </NavLink>
           </Link>
-          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+          <Link to="landing-bottom" smooth={true} duration={500}>
             <NavLink className="link-tab" to="/experience">
               Work Experience
             </NavLink>
           </Link>
-          <Link to="landing-bottom" spy={true} smooth={true} duration={500}>
+          <Link to="landing-bottom" smooth={true} duration={500}>
             <NavLink className="link-tab" to="/coursework">
               Coursework
             </NavLink>

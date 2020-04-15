@@ -15,19 +15,28 @@ a.link-tab {
   padding: 2vw 3vw;
   font-size: 1.5vw;
   text-decoration: none;
-  background-size: 100% 200%;
-  background-image: linear-gradient(to top, #b95353 50%, #4e8050 50%);
-  transition: background-position 0.4s ease-out;
-  /* transition: border-bottom 0.8s linear; */
+  background-image: linear-gradient(#b95353, #b95353);
+  background-size: 0 1vw, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all 0.2s ease-out;
+}
+
+a.link-tab:after {
+  transition: width 0.5s ease, background-color 0.5s ease;
 }
 
 a.link-tab.active {
-  border-bottom: 1vh solid #b95353;
+  background-size: 100% 5px, auto;
 }
 
 a.link-tab:hover {
-  background-position: 0 100%;
-  border-bottom: 1vh solid #b95353;
+  background-size: 100% 5px, auto;
+}
+
+a.link-tab:hover:after {
+  width: 100%;
+  background: blue;
 }
 
 @media only screen and (max-width: 768px) {
