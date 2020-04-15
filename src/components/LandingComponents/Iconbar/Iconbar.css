@@ -2,44 +2,76 @@
   overflow: hidden;
   list-style-type: none;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative;
   background: transparent;
 }
 
 .icon-button {
-  /* background-color: #ffffff; */
   border: 0.2vw solid white;
   color: white;
   cursor: pointer;
   border-radius: 50%;
   width: 100%;
   padding-bottom: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding-bottom: 0vw;
   width: 6vw;
   height: 6vw;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
   margin: 1vh 1vw;
 }
 
 .icon-button img {
+  -o-object-fit: cover;
   object-fit: cover;
   width: 40%;
   height: 40%;
 }
 
-.icon-button:hover {
-  /* background-color: #b95353; */
-  background-color: rgb(255, 255, 255, 0.5);
-}
-
 .color-svg-white {
+  -webkit-filter: invert(100%) sepia(0%) saturate(3972%) hue-rotate(129deg)
+    brightness(119%) contrast(111%);
   filter: invert(100%) sepia(0%) saturate(3972%) hue-rotate(129deg)
     brightness(119%) contrast(111%);
+}
+
+.icon-button:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 0.7vw solid rgb(255, 255, 255, 0.5);
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 .tooltip-theme {
@@ -57,5 +89,6 @@
   .icon-button {
     width: 15vw;
     height: 15vw;
+    margin: 1vh 2vw;
   }
 }

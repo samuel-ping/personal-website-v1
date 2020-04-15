@@ -1,6 +1,8 @@
 #credits-bar {
+  padding-top: 2.5vh;
   max-width: 100%;
-  background-color: #a44a4a;
+  background-color: #024b30;
+  display: -ms-grid;
   display: grid;
   place-items: center;
 }

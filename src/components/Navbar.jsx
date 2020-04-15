@@ -22,6 +22,14 @@ class Navbar extends Component {
               About Me
             </NavLink>
           </Link>
+          {/* <Link
+            componentclass={NavLink}
+            to="landing-bottom"
+            smooth={true}
+            duration={500}
+          >
+            About Me
+          </Link> */}
           <Link to="landing-bottom" smooth={true} duration={500}>
             <NavLink className="link-tab" to="/involvement">
               Involvement

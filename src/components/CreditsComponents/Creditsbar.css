@@ -1,8 +1,10 @@
 #credits {
   width: 100%;
-  background-color: #a44a4a;
+  background-color: #024b30;
   font-size: 1vw;
   text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 

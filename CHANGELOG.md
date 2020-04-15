@@ -5,13 +5,13 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 ## [Unreleased]
 
 - More details in pages- use cards list for projects
-- Add support for all browsers
 - Add picture to about-me
 - Make the vertical navbar collapse... maybe go to bootstrap
 - Add familiar technologies to About tab, and organize it nicely
 - Make stuff fade in (use React-Motion?)
 - Scrollbar support for Firefox?
 - Google Analytics for all pages
+- Bunch of warnings for putting react-router inside react-scroll
 
 ##### How to update and redeploy website:
 
@@ -21,7 +21,21 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 4. run npm run deploy
 5. don't forget to re-add custom domain in Github
 
-##### Colors used: https://colorswall.com/palette/51884
+##### Colors used: https://colorswall.com/palette/52156
+
+##### https://autoprefixer.github.io/
+
+## [1.1.15] - 2020-04-15
+
+## Added
+
+- Icon buttons inflate on hover now
+- Added the stupid -webkit -moz and whatnot
+
+### Changed
+
+- Goodbye red color. RIP https://colorswall.com/palette/51884
+- New green color palette
 
 ## [1.1.14] - 2020-04-14
 
@@ -38,7 +52,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Reorganized code
 - Fiddled with fonts
 - Icon bar looks more modern
-- Navbar hover animation (unintentionally) changed, looks waay cooler now
+- Navbar hover animation (unintentionally) changed, looks waay cooler now. Happy little accidents!
 
 ### Fixed
 

@@ -1,6 +1,7 @@
 #down-arrow div {
   color: #fff;
   text-decoration: none;
+  display: -ms-grid;
   display: grid;
   place-items: center;
   padding-top: 4vh;
@@ -10,6 +11,8 @@
 #down-arrow div:hover {
   opacity: 0.6;
   cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
@@ -18,7 +21,15 @@
   border-bottom: 0.2vw solid #fff;
   width: 2vw;
   height: 2vw;
+
+  -webkit-transform: rotate(-45deg);
+
+  -ms-transform: rotate(-45deg);
+
   transform: rotate(-45deg);
+
+  -webkit-animation: scrolldownbutton 2s infinite;
+
   animation: scrolldownbutton 2s infinite;
 }
 
@@ -26,6 +37,18 @@
   top: 16px;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+}
+
+@-webkit-keyframes scrolldownbutton {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes scrolldownbutton {
