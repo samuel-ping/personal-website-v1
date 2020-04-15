@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
 import ReactGA from "react-ga";
-import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 // import { Router } from "react-router-dom";
-// import { createBrowserHistory } from "history";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
@@ -12,31 +11,19 @@ import Credits from "./components/Credits";
 import "./components/general-styles/General.css";
 
 ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
-ReactGA.pageview("/about-me");
-// var history = createBrowserHistory();
+ReactGA.pageview("/");
 
-// console.log("4242");
 export default class App extends Component {
   render() {
-    // history.listen((location, action) => {
-    //   console.log("do you see me?2222222");
-
-    //   ReactGA.pageview(location.pathname + location.search);
-    //   console.log(location.pathname);
-    //   console.log("do you see me?");
-    // });
+    console.log(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
 
     return (
-      // <div>
-      // <Router history={history}>
       <div>
         <Landing />
         <ScrollUpButton ContainerClassName="scroll-up-button" />
         <Navbar />
         <Credits />
       </div>
-      // </Router>
-      // </div>
     );
   }
 }

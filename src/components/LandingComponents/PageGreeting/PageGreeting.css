@@ -3,6 +3,7 @@
 }
 
 #greeting-text {
+  /* border-top: 0.3vh solid #ffffff; */
   font-family: Biryani;
   font-size: 7vh;
   margin-top: 10vh;

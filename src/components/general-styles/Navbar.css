@@ -12,15 +12,15 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-shadow: 0.2vh;
-  box-shadow: 0.2vh;
 }
 
 a.link-tab {
+  display: grid;
+  grid-template-columns: auto auto;
   float: left;
   color: #ffffff;
   padding: 2vw 3vw;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   text-decoration: none;
   background-image: -webkit-gradient(
     linear,
@@ -38,7 +38,9 @@ a.link-tab {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-
+.link-tab img {
+  padding-right: 0.3vw;
+}
 a.link-tab:after {
   -webkit-transition: width 0.5s ease, background-color 0.5s ease;
   -o-transition: width 0.5s ease, background-color 0.5s ease;
@@ -55,7 +57,7 @@ a.link-tab:hover {
 
 @media only screen and (max-width: 768px) {
   #navbar {
-    display: block;
+    display: flex;
     position: relative;
   }
 
@@ -72,9 +74,13 @@ a.link-tab:hover {
     background-size: 100% 100% !important;
     background-image: none !important;
   }
-
+  .link-tab img {
+    padding-right: 1vw;
+  }
   a.link-tab {
     width: 100% !important;
+    display: flex;
+    justify-content: center;
     -webkit-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;

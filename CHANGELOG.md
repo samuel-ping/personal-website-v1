@@ -4,14 +4,16 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
-- More details in pages- use cards list for projects
-- Add picture to about-me
+- CARDS
+- Google Analytics for all pages
+
 - Make the vertical navbar collapse... maybe go to bootstrap
 - Add familiar technologies to About tab, and organize it nicely
+- More modern navbar- thinner font and icons next to each link?
+- Reorganize code for landing to flow better
 - Make stuff fade in (use React-Motion?)
 - Scrollbar support for Firefox?
-- Google Analytics for all pages
-- Bunch of warnings for putting react-router inside react-scroll
+- Bunch of warnings for putting react-router inside react-scroll- (https://stackoverflow.com/questions/47102177/validatedomnesting-a-cannot-appear-as-a-descendant-of-a) (https://github.com/fisshy/react-scroll/issues/154) (https://reacttraining.com/react-router/web/guides/scroll-restoration)
 
 ##### How to update and redeploy website:
 
@@ -25,7 +27,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### https://autoprefixer.github.io/
 
-## [1.1.15] - 2020-04-15
+## [1.1.16] - 2020-04-15
 
 ## Added
 
