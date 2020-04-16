@@ -51,16 +51,14 @@ class Navbar extends Component {
               <img src={InvolvementIcon} alt="Rutgers" /> Involvement
             </NavLink>
 
-            <Link to="landing-bottom" smooth={true} duration={500}>
-              <NavLink className="link-tab" to="/projects">
-                <img
-                  src={ProjectsIcon}
-                  alt="Projects"
-                  className="color-svg-white"
-                />{" "}
-                Projects
-              </NavLink>
-            </Link>
+            <NavLink className="link-tab" to="/projects">
+              <img
+                src={ProjectsIcon}
+                alt="Projects"
+                className="color-svg-white"
+              />{" "}
+              Projects
+            </NavLink>
 
             <NavLink className="link-tab" to="/experience">
               <img

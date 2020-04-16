@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import ReactGA from "react-ga";
-// import { Router } from "react-router-dom";
+import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
@@ -14,37 +14,28 @@ import "./components/general-styles/General.css";
 
 ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
 // ReactGA.pageview("/");
-const browserHistory = createBrowserHistory();
-browserHistory.listen((location, action) => {
-  console.log("hellooooo22222?");
+
+// const browserHistory = createBrowserHistory();
+// browserHistory.listen((location, action) => {
+//   console.log("hellooooo22222?");
+//   ReactGA.pageview(location.pathname + location.search);
+// });
+
+const history = createBrowserHistory();
+
+history.listen((location) => {
+  // ReactGA.set({ page: location.pathname }); // Update the user's current page
   ReactGA.pageview(location.pathname + location.search);
 });
 
-// export default class App extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <Landing />
-//         <ScrollUpButton ContainerClassName="scroll-up-button" />
-//         <Navbar />
-//         <Credits />
-//       </div>
-//     );
-//   }
-// }
-
 const App = () => {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
-    <div>
+    <Router history={history}>
       <Landing />
       <ScrollUpButton ContainerClassName="scroll-up-button" />
       <Navbar />
       <Credits />
-    </div>
+    </Router>
   );
 };
 

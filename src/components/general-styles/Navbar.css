@@ -15,13 +15,16 @@
 }
 
 a.link-tab {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: auto auto;
   grid-template-columns: auto auto;
   float: left;
   color: #ffffff;
   padding: 2vw 3vw;
   font-size: 1.2vw;
   text-decoration: none;
+  background-image: -o-linear-gradient(#024b30, #024b30);
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -29,7 +32,6 @@ a.link-tab {
     from(#024b30),
     to(#024b30)
   );
-  background-image: -o-linear-gradient(#024b30, #024b30);
   background-image: linear-gradient(#024b30, #024b30);
   background-size: 0 1vw, auto;
   background-repeat: no-repeat;
@@ -57,6 +59,8 @@ a.link-tab:hover {
 
 @media only screen and (max-width: 768px) {
   #navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
   }
@@ -79,7 +83,11 @@ a.link-tab:hover {
   }
   a.link-tab {
     width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     -webkit-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
