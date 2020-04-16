@@ -33,6 +33,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 - Icon buttons inflate on hover now
 - Added the stupid -webkit -moz and whatnot
+- Icons to navbar
 
 ### Changed
 

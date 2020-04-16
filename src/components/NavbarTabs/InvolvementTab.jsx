@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import "./NavbarTab.css";
 
 class InvolvementTab extends Component {
-  state = {};
   render() {
     return (
       <div className="a-tab">

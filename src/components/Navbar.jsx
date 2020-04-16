@@ -4,10 +4,11 @@ import {
   BrowserRouter,
   Route,
   NavLink,
+  Switch,
   // Router,
+  // withRouter,
 } from "react-router-dom";
-// import { createBrowserHistory } from "history";
-// import ReactGA from "react-ga";
+
 import { Link } from "react-scroll";
 
 import AboutTab from "./NavbarTabs/AboutTab";
@@ -26,20 +27,7 @@ import ContactIcon from "../assets/images/icons/contact.svg";
 
 import "./general-styles/Navbar.css";
 
-// const history = createBrowserHistory();
-
-// history.listen((location) => {
-//   console.log("11");
-//   ReactGA.set({ page: location.pathname });
-//   ReactGA.pageview(location.pathname);
-// });
-
 class Navbar extends Component {
-  // componentDidMount() {
-  //   console.log("12");
-  //   ReactGA.pageview(window.location.pathname);
-  // }
-
   render() {
     return (
       <BrowserRouter basename="/">
@@ -103,24 +91,29 @@ class Navbar extends Component {
           </Link>
         </div>
 
-        <Route path="/about-me">
-          <AboutTab />
-        </Route>
-        <Route path="/involvement">
-          <InvolvementTab />
-        </Route>
-        <Route path="/projects">
-          <ProjectsTab />
-        </Route>
-        <Route path="/experience">
-          <ExperienceTab />
-        </Route>
-        <Route path="/coursework">
-          <CourseworkTab />
-        </Route>
-        <Route path="/contact">
-          <ContactTab />
-        </Route>
+        <Switch>
+          <Route exact path="/">
+            <AboutTab />
+          </Route>
+          <Route path="/about-me">
+            <AboutTab />
+          </Route>
+          <Route path="/involvement">
+            <InvolvementTab />
+          </Route>
+          <Route path="/projects">
+            <ProjectsTab />
+          </Route>
+          <Route path="/experience">
+            <ExperienceTab />
+          </Route>
+          <Route path="/coursework">
+            <CourseworkTab />
+          </Route>
+          <Route path="/contact">
+            <ContactTab />
+          </Route>
+        </Switch>
       </BrowserRouter>
     );
   }
