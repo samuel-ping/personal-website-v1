@@ -4,6 +4,7 @@ import ReactTooltip from "react-tooltip";
 
 import Resume from "../../../assets/samuel-ping.3-26-20.pdf";
 import ResumeIcon from "../../../assets/images/icons/resume.svg";
+// import GithubButton from "./IconbarComponents/GithubButton";
 import GitHubIcon from "../../../assets/images/icons/github.svg";
 import LinkedInIcon from "../../../assets/images/icons/linkedin.svg";
 import EmailIcon from "../../../assets/images/icons/email.svg";
@@ -32,6 +33,7 @@ export default class Resumebar extends Component {
           />
         </li>
         <li>
+          {/* <GithubButton /> */}
           <a
             className="icon-button"
             href="https://github.com/samuel-ping"

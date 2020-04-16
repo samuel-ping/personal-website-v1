@@ -1,15 +1,14 @@
 .a-tab {
   font-family: Biryani;
   margin: 0;
-  padding: 1vh 4vw;
-  display: block;
+  display: flex;
 
   color: black;
   background-color: #66a686;
 }
 
 .text-area {
-  margin: 10vh 10vw;
+  margin: 5vh 10vw;
 }
 
 .text-area li {
@@ -22,6 +21,15 @@ h1 {
 
 h2 {
   font-size: 1.7vw;
+}
+
+.project-name-and-buttons {
+  display: flex;
+  align-items: center;
+}
+
+h2.a-tab.text-area.project-name-and-buttons {
+  margin-right: 0.2vw;
 }
 
 h3 {

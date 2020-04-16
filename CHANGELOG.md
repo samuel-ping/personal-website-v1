@@ -26,6 +26,16 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ##### https://autoprefixer.github.io/
 
+## [1.2.0] - 2020-04-16
+
+## Added
+
+- Temporary links to repos and websites for projects, before I create the cards
+
+## Changed
+
+- Read about React's versioning guidelines, will follow that from now on... whoops
+
 ## [1.1.18] - 2020-04-15
 
 ## Added
