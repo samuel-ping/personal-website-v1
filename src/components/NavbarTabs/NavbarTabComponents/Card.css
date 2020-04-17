@@ -1,6 +1,12 @@
 #card {
   z-index: -1;
 
+  background: -o-linear-gradient(
+    124deg,
+    rgba(24, 78, 104, 1) 0%,
+    rgba(77, 143, 109, 1) 100%
+  );
+
   background: linear-gradient(
     326deg,
     rgba(24, 78, 104, 1) 0%,
@@ -9,22 +15,39 @@
   color: #ffffff;
   margin: 3vh 5vw;
   border-radius: 1vw;
+  -webkit-box-shadow: 0 0.3vh 3px 3px #023622;
   box-shadow: 0 0.3vh 3px 3px #023622;
+
+  -webkit-transition-duration: 0.3s;
+
+  -o-transition-duration: 0.3s;
 
   transition-duration: 0.3s;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 #card-title-container {
   width: 100%;
+  background: -o-linear-gradient(
+    305deg,
+    rgba(24, 78, 104, 1) 0%,
+    rgba(77, 143, 109, 1) 100%
+  );
   background: linear-gradient(
     145deg,
     rgba(24, 78, 104, 1) 0%,
     rgba(77, 143, 109, 1) 100%
   );
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 
@@ -34,14 +57,23 @@
 }
 
 #card:hover {
+  -webkit-box-shadow: 0 0.5vh 1.5vh 4px #023622;
   box-shadow: 0 0.5vh 1.5vh 4px #023622;
+
+  -webkit-transform: translateY(-2%);
+
+  -ms-transform: translateY(-2%);
 
   transform: translateY(-2%);
 }
 
 .header-container {
   background-color: rgba(255, 255, 255, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
   padding-left: 5vw;
@@ -78,7 +110,11 @@ li.card-bullet-point {
   overflow: hidden;
   width: 29vw;
   height: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 0.5vw;
 }

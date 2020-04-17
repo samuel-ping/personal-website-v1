@@ -13,12 +13,13 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Scrolling with router is wonky in general
 - Bunch of warnings for putting react-router inside react-scroll- (https://stackoverflow.com/questions/47102177/validatedomnesting-a-cannot-appear-as-a-descendant-of-a) (https://github.com/fisshy/react-scroll/issues/154) (https://reacttraining.com/react-router/web/guides/scroll-restoration)
 
-## [2.0.0] - 2020-04-?
+## [2.0.0] - 2020-04-17
 
 ## Added
 
 - Tabs are now in card form! Phew that took very long.
 - Active tab changes background color to match tab body
+- Updated CSS for most browsers
 
 ## Changed
 
