@@ -4,7 +4,6 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
-- CARDS
 - Google Analytics for all pages
 - Make the vertical navbar collapse... maybe go to bootstrap
 - Add familiar technologies to About tab, and organize it nicely
@@ -14,17 +13,16 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Scrolling with router is wonky in general
 - Bunch of warnings for putting react-router inside react-scroll- (https://stackoverflow.com/questions/47102177/validatedomnesting-a-cannot-appear-as-a-descendant-of-a) (https://github.com/fisshy/react-scroll/issues/154) (https://reacttraining.com/react-router/web/guides/scroll-restoration)
 
-##### How to update and redeploy website:
+## [2.0.0] - 2020-04-?
 
-1. push changes- it may help to force the push using -f
-2. bring other branch up to date with the one you just pushed changes to using "git rebase"
-3. push changes for updated branch
-4. run npm run deploy
-5. don't forget to re-add custom domain in Github
+## Added
 
-##### Colors used: https://colorswall.com/palette/52156
+- Tabs are now in card form! Phew that took very long.
+- Active tab changes background color to match tab body
 
-##### https://autoprefixer.github.io/
+## Changed
+
+- Landing background color
 
 ## [1.2.0] - 2020-04-16
 

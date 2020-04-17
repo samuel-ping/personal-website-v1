@@ -1,22 +1,22 @@
 import React, { Component } from "react";
 
-import WebsiteIcon from "../../../assets/images/icons/monitor.svg";
+import GitHubIcon from "../../../../../assets/images/icons/github.svg";
 
 import "./SmallButton.css";
 
-class SmallWebsiteButton extends Component {
+class SmallGitHubButton extends Component {
   render() {
     return (
       <div>
         <a
-          href={this.props.websiteLink}
+          href={this.props.githubLink}
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className="small-button"
-            src={WebsiteIcon}
-            alt="See this website live"
+            src={GitHubIcon}
+            alt="See this project's repository"
           />
         </a>
       </div>
@@ -24,4 +24,4 @@ class SmallWebsiteButton extends Component {
   }
 }
 
-export default SmallWebsiteButton;
+export default SmallGitHubButton;

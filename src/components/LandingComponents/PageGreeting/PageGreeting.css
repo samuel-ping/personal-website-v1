@@ -1,9 +1,8 @@
 .description-background {
-  background-color: rgba(2, 75, 48, 0.7);
+  background-color: rgba(54, 99, 76, 0.7);
 }
 
 #greeting-text {
-  /* border-top: 0.3vh solid #ffffff; */
   font-family: Biryani;
   font-size: 7vh;
   margin-top: 10vh;

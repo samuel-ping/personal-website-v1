@@ -1,7 +1,7 @@
 .a-tab {
   font-family: Biryani;
   margin: 0;
-  display: flex;
+  display: block;
 
   color: black;
   background-color: #66a686;
