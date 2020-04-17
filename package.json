@@ -1,7 +1,7 @@
 {
   "homepage": "https://samuelping.me/#",
   "name": "personal-website",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.10",

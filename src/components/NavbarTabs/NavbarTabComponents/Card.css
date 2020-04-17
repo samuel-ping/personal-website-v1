@@ -1,6 +1,4 @@
 #card {
-  z-index: -1;
-
   background: -o-linear-gradient(
     124deg,
     rgba(24, 78, 104, 1) 0%,
@@ -59,7 +57,7 @@
 #card:hover {
   -webkit-box-shadow: 0 0.5vh 1.5vh 4px #023622;
   box-shadow: 0 0.5vh 1.5vh 4px #023622;
-
+  -moz-transform: translateY(-2%);
   -webkit-transform: translateY(-2%);
 
   -ms-transform: translateY(-2%);
