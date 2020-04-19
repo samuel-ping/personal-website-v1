@@ -12,6 +12,4 @@
 
 ##### https://autoprefixer.github.io/
 
-##### Using props in style attribute: https://stackoverflow.com/questions/40910182/using-props-in-react-style-attribute https://reactjs.org/docs/dom-elements.html https://www.w3schools.com/react/react_css.asp
-
-##### Importing image: https://github.com/facebook/create-react-app/issues/585, https://stackoverflow.com/questions/48385073/pass-the-local-image-path-as-a-prop-between-two-functional-components
+##### example of card ui: https://codepen.io/sdthornton/pen/wBZdXq?editors=1100

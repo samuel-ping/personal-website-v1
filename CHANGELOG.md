@@ -15,6 +15,12 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Scrolling with router is wonky in general
 - Bunch of warnings for putting react-router inside react-scroll- (https://stackoverflow.com/questions/47102177/validatedomnesting-a-cannot-appear-as-a-descendant-of-a) (https://github.com/fisshy/react-scroll/issues/154) (https://reacttraining.com/react-router/web/guides/scroll-restoration)
 
+## [2.1.0] - 2020-04-18
+
+## Fixed
+
+- Just made the color of the credits bar the same color as the navbar
+
 ## [2.0.3] - 2020-04-17
 
 ## Added
