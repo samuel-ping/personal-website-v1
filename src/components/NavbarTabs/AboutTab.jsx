@@ -19,7 +19,8 @@ class AboutTab extends Component {
           paragraph2:
             "Apart from programming, I love playing tennis, acting, and tinkering with computer hardware. I'm also a fan of all things green! Except boogers.",
         },
-        imageData: { image: "portraitOfMe", imageRotation: "rotate(90deg)" },
+        // imageData: { image: "portraitOfMe", imageRotation: "rotate(90deg)" },
+        imageData: {},
       },
     };
   }

@@ -15,6 +15,12 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Scrolling with router is wonky in general
 - Bunch of warnings for putting react-router inside react-scroll- (https://stackoverflow.com/questions/47102177/validatedomnesting-a-cannot-appear-as-a-descendant-of-a) (https://github.com/fisshy/react-scroll/issues/154) (https://reacttraining.com/react-router/web/guides/scroll-restoration)
 
+## [2.1.1] - 2020-04-21
+
+## Fixed
+
+- Removed photo from About Me tab. I don't like how HTML or CSS automatically rotates images... its too inconsistent across devices for me.
+
 ## [2.1.0] - 2020-04-18
 
 ## Fixed
