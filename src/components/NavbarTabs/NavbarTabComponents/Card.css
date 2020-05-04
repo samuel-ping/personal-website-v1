@@ -1,5 +1,5 @@
 #card {
-  background: -o-linear-gradient(
+  /* background: -o-linear-gradient(
     124deg,
     rgba(24, 78, 104, 1) 0%,
     rgba(77, 143, 109, 1) 100%
@@ -9,18 +9,20 @@
     326deg,
     rgba(24, 78, 104, 1) 0%,
     rgba(77, 143, 109, 1) 100%
-  );
+  ); */
+
+  background-color: #387759;
   color: #ffffff;
   margin: 3vh 5vw;
   border-radius: 1vw;
   -webkit-box-shadow: 0 0.3vh 3px 3px #023622;
   box-shadow: 0 0.3vh 3px 3px #023622;
 
-  -webkit-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.1s;
 
-  -o-transition-duration: 0.3s;
+  -o-transition-duration: 0.1s;
 
-  transition-duration: 0.3s;
+  transition-duration: 0.1s;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +31,7 @@
 
 #card-title-container {
   width: 100%;
-  background: -o-linear-gradient(
+  /* background: -o-linear-gradient(
     305deg,
     rgba(24, 78, 104, 1) 0%,
     rgba(77, 143, 109, 1) 100%
@@ -38,8 +40,8 @@
     145deg,
     rgba(24, 78, 104, 1) 0%,
     rgba(77, 143, 109, 1) 100%
-  );
-
+  ); */
+  background-color: #387759;
   display: -webkit-box;
 
   display: -ms-flexbox;

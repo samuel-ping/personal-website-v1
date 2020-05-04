@@ -4,6 +4,7 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 
 ## [Unreleased]
 
+- Header not spanning across whole card
 - Mobile lookin wonky now
 - FireFox hover transitions don't work
 - Google Analytics for all pages
@@ -14,6 +15,12 @@ This project doesn't really need a changelog. It's more for me than anyone else,
 - Scrollbar support for Firefox?
 - Scrolling with router is wonky in general
 - Bunch of warnings for putting react-router inside react-scroll- (https://stackoverflow.com/questions/47102177/validatedomnesting-a-cannot-appear-as-a-descendant-of-a) (https://github.com/fisshy/react-scroll/issues/154) (https://reacttraining.com/react-router/web/guides/scroll-restoration)
+
+## [2.2.0] - 2020-05-04
+
+## Changed
+
+- I don't know, the website is just so unmodern... I removed the gradient from the cards. I'm not sure what to change...
 
 ## [2.1.1] - 2020-04-21
 
