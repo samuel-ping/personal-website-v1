@@ -10,7 +10,6 @@ export default class Credits extends Component {
     return (
       <div id="credits-bar">
         <Iconbar />
-        <Creditsbar />
       </div>
     );
   }
