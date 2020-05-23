@@ -1,9 +1,0 @@
-#credits-bar {
-  border-top: 0.3vh solid #ffffff;
-  padding-top: 2.5vh;
-  max-width: 100%;
-  background-color: #387759;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-}
