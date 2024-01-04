@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffef1bc96b37a6e6dcb75a51d04db81f",
+    "revision": "d0cfedb06139069456062f26bf9e6f1f",
     "url": "/personal-website-v1/index.html"
   },
   {
-    "revision": "c7aa693429988d463fe0",
+    "revision": "5918af6a01663d96e7c1",
     "url": "/personal-website-v1/static/css/main.2d7eb247.chunk.css"
   },
   {
-    "revision": "c60cf2918b9329886930",
-    "url": "/personal-website-v1/static/js/2.08077d30.chunk.js"
+    "revision": "d2d1f5be02db2d1c2cff",
+    "url": "/personal-website-v1/static/js/2.0a64f4ea.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/personal-website-v1/static/js/2.08077d30.chunk.js.LICENSE.txt"
+    "url": "/personal-website-v1/static/js/2.0a64f4ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7aa693429988d463fe0",
-    "url": "/personal-website-v1/static/js/main.47a03de5.chunk.js"
+    "revision": "5918af6a01663d96e7c1",
+    "url": "/personal-website-v1/static/js/main.79cef8db.chunk.js"
   },
   {
     "revision": "cf0c64c8064d538a5f9e",
@@ -78,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "deb237f772b9a0dcf5149c6cd569dbc0",
     "url": "/personal-website-v1/static/media/resume.deb237f7.svg"
-  },
-  {
-    "revision": "b0542870c883a632ecd8b64a94696d6c",
-    "url": "/personal-website-v1/static/media/samuel-ping.3-26-20.b0542870.pdf"
   },
   {
     "revision": "77c9edc2ae9b6df3c0d15f70989378cd",
